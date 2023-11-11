@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/safethecode/ve_/compare/v0.1.3...v0.1.4) (2023-11-11)
+
+
+### Features
+
+* **deps:** updated NextJS to version 14.0.2 ([06a2d25](https://github.com/safethecode/ve_/commit/06a2d25f0d652835789cde52c9c56d99c8e50508))
+
 ### [0.1.3](https://github.com/safethecode/ve_/compare/v0.1.2...v0.1.3) (2023-11-11)
 
 
