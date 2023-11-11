@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/safethecode/ve_/compare/v0.1.2...v0.1.3) (2023-11-11)
+
+
+### Features
+
+* **utils/api:** remove existing dependent domains ([58a35c9](https://github.com/safethecode/ve_/commit/58a35c9a97e1b38b391916df17b0a30bfa1f472a))
+
 ### [0.1.2](https://github.com/safethecode/ve_/compare/v0.1.1...v0.1.2) (2023-09-22)
 
 ### [0.1.1](https://github.com/safethecode/ve_/compare/v0.1.0...v0.1.1) (2023-08-10)
