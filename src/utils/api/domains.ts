@@ -9,7 +9,7 @@ export const validateDomain = ({ domain }: ValidateDomain) => {
     return 'Missing domain';
   }
   const validDomain =
-    validDomainRegex.test(domain) && !domain.endsWith('.sionicstorm.ai');
+    validDomainRegex.test(domain) && !domain.endsWith(process.env.NEXT_PUBLIC_DOMAIN as string);
 
   if (!validDomain) {
     return 'Invalid domain';
