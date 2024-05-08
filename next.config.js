@@ -8,7 +8,6 @@ const nextConfig = {
   reactStrictMode: false,
   experimental: {
     useDeploymentId: true,
-    serverActions: true,
     useDeploymentIdServerActions: true,
   },
   typescript: {},
