@@ -6,10 +6,6 @@ const withVanillaExtract = createVanillaExtractPlugin();
 
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    useDeploymentId: true,
-    useDeploymentIdServerActions: true,
-  },
   typescript: {},
   distDir: '.next',
   compiler: {
