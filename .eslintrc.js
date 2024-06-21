@@ -121,6 +121,6 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'warn',
     'react/react-in-jsx-scope': 'off',
 
-    '@next/no-img-element': 'off',
+    '@next/next/no-img-element': 'off',
   },
 };

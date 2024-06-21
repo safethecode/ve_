@@ -6,6 +6,7 @@ interface SEOMetadata {
   keywords?: string[];
   image?: string;
   icons?: string;
+  domain: string;
 }
 
 export function constructMetadata({
@@ -14,6 +15,7 @@ export function constructMetadata({
   keywords,
   image,
   icons,
+  domain,
 }: SEOMetadata): Metadata {
   return {
     title,
@@ -29,7 +31,6 @@ export function constructMetadata({
         },
       ],
     },
-    metadataBase: new URL('https://example.com'),
-    themeColor: '#FFF',
+    metadataBase: new URL(domain),
   };
 }

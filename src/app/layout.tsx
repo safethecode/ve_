@@ -9,6 +9,7 @@ export const metadata = constructMetadata({
   title: 'VE_',
   description: 'I Love VE ❤️',
   keywords: ['VE', 'I Love VE'],
+  domain: 'localhost:3000',
 });
 
 export default function RootLayout({

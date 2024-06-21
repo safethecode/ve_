@@ -1,4 +1,4 @@
-export default function Examples() {
+export default function Main() {
   return (
     <main>
       <code>
